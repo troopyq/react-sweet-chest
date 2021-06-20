@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-sweet-chest/static/css/main.99ef09a6.chunk.css",
-    "main.js": "/react-sweet-chest/static/js/main.3bc24ee4.chunk.js",
-    "main.js.map": "/react-sweet-chest/static/js/main.3bc24ee4.chunk.js.map",
+    "main.js": "/react-sweet-chest/static/js/main.ab780794.chunk.js",
+    "main.js.map": "/react-sweet-chest/static/js/main.ab780794.chunk.js.map",
     "runtime-main.js": "/react-sweet-chest/static/js/runtime-main.dc74bd64.js",
     "runtime-main.js.map": "/react-sweet-chest/static/js/runtime-main.dc74bd64.js.map",
     "static/css/2.0540911f.chunk.css": "/react-sweet-chest/static/css/2.0540911f.chunk.css",
@@ -44,6 +44,6 @@
     "static/css/2.0540911f.chunk.css",
     "static/js/2.7799cb21.chunk.js",
     "static/css/main.99ef09a6.chunk.css",
-    "static/js/main.3bc24ee4.chunk.js"
+    "static/js/main.ab780794.chunk.js"
   ]
 }
