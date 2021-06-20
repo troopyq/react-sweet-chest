@@ -9,7 +9,7 @@ function MenuBlock({img, title, text, price}) {
         <p className='menu__text'>{text}</p>
         <div className="menu__bottom">
           <span className='menu__price'>{price} ₽/шт.</span>
-          <Button size='m' >Заказать</Button>
+          <a href='#form'><Button size='m' >Заказать</Button></a>
         </div>
       </div>
     </div>

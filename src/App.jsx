@@ -17,14 +17,14 @@ function App() {
         <h1>Пирожные и капкейки <br /> от 150 ₽/шт. с доставкой <br /> по Санкт Петербургу</h1>
         <p>Приготовим за 3 часа в день заказа. <br />
             Доставка на авто в холодильнике.</p>
-        <Button size='l'>Перейти в каталог</Button>
+        <a href='#menu'><Button size='l'>Перейти в каталог</Button></a>
         <span>9 различных видов на выбор</span>
         </div>
       </Section>
     </header>
     <main>
       <Section white style={{marginTop: '0px'}} >
-        <div className="sec-2">
+        <div  className="sec-2">
           <h2>Для любых событий и дорогих вам людей</h2>
           <Menu />
         </div>
@@ -47,7 +47,7 @@ function App() {
               <li>Приготовлю капкейки для вашего события, которые обязательно всем понравятся</li>
               <li>Аккуратно и красиво всё упакую, если вы хотите сделать приятный подарок</li>
             </ul>
-            <Button size='l' >Задать вопрос Юлии</Button>
+            <a href='#form'><Button size='l' >Задать вопрос Юлии</Button></a>
           </div>
 
           <div className="sec-4__image">

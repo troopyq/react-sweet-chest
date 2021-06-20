@@ -4,12 +4,12 @@ import {Button} from '..'
 
 function Form() {
   return (
-    <div className='form'>
+    <div id='form' className='form'>
       <div className="form__title">
         <h2>Чтобы сделать заказ, укажите ваш телефон</h2>
         <p>Мы перезвоним в течении 15 минут, чтобы уточнить ваши пожелания</p>
       </div>
-      <form>
+      <form >
         <div className="fields">
           <div className="phone">
             <input id='phone' type="number" placeholder='Номер телефона'/>

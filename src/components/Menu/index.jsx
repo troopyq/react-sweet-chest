@@ -60,7 +60,7 @@ function Menu() {
   ]
 
   return (
-    <div className="price-menu menu">
+    <div id='menu' className="price-menu menu">
       {menu.map((el, id) => {
         return <MenuBlock key={el + id} {...el} />
       })}  
