@@ -1,0 +1,9 @@
+export { default as Header } from './Header';
+export { default as Button } from './Button';
+export { default as Section } from './Section';
+export { default as Menu } from './Menu';
+export { default as MenuBlock } from './MenuBlock';
+export { default as Slider } from './Slider';
+export { default as Gallery } from './Gallery';
+export { default as Form } from './Form';
+export { default as Footer } from './Footer';

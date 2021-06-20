@@ -1,0 +1,41 @@
+@import '../variables';
+
+section {
+	position: relative;
+	padding: 50px 0;
+	color: $white;
+	// overflow-x: hidden;
+}
+
+section.section_white {
+	background-color: $white;
+	// margin: 250px 0;
+	color: $black;
+
+	&::after,
+	&::before {
+		content: '';
+		display: block;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		z-index: 1;
+	}
+
+	&::after {
+		min-height: 210px;
+		bottom: 2px;
+		background: url('../../img/bottom.png') no-repeat;
+		background-size: 100%;
+		background-position: top;
+		transform: translateY(100%);
+	}
+	&::before {
+		min-height: 170px;
+		top: 2px;
+		background: url('../../img/top.png') no-repeat;
+		background-size: 100%;
+		background-position: bottom;
+		transform: translateY(-100%);
+	}
+}

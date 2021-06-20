@@ -1,0 +1,61 @@
+@import '../variables';
+
+.button {
+	display: inline-block;
+	background-color: $yellow;
+	color: $text-btn;
+	line-height: 1.5;
+	font-weight: 500;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+	outline: none;
+	border: none;
+	transition: all 0.1s ease;
+	margin: 20px 20px 20px 0;
+
+	font-size: 1.8rem;
+	border-radius: 8px;
+	padding: 20px 40px;
+
+	&:hover {
+		background-color: lighten($color: $yellow, $amount: 15);
+		box-shadow: 0 0 15px lighten($color: $yellow, $amount: 15);
+	}
+	&:active {
+		background-color: darken($color: $yellow, $amount: 15);
+		transform: scale(0.97);
+	}
+
+	&_size-s {
+		font-size: 11px;
+		border-radius: 5px;
+		padding: 10px 18px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	&_size-m {
+		font-size: 18px;
+		border-radius: 8px;
+		padding: 20px 40px;
+	}
+	&_size-l {
+		font-size: 19px;
+		border-radius: 8px;
+		padding: 30px 50px;
+	}
+
+	&_color-w {
+		background-color: $dark-white;
+		color: #2e363e;
+
+		&:hover {
+			background-color: $dark-white;
+			box-shadow: none;
+		}
+		&:active {
+			background-color: $dark-white;
+			transform: none;
+		}
+	}
+}
